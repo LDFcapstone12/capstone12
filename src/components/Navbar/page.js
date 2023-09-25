@@ -36,14 +36,7 @@ const Navbar = () => {
           <Link href='/contact'>Contact Us</Link>
         </li>
       </ul>
-      <div className='sm:block hidden'>
-      
-      <Link href='/signup'>
-        <button type='submit' className="bg-white text-blue-900 text-m lg:text-lg font-semibold px-6 py-2 shadow-md shadow-[#affd2d] rounded-full">
-        Join Us
-        </button>
-      </Link>
-      </div>
+     
       <div onClick={handleNav} className='md:hidden'>
           <AiOutlineMenu color='black' fontSize={27}/>
       </div>
@@ -87,4 +80,3 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
