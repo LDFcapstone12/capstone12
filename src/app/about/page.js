@@ -1,4 +1,5 @@
-
+import React from "react";
+import Image from "next/image";
 export const metadata = {
   title: 'About Us : BSA Senior Citizens Association',
 };
@@ -11,7 +12,7 @@ export default function AboutUs() {
         <p className="text-xl tracking-widest font-semibold">History</p>
         <p className="w-10/12 text-justify tracking-wide text-xl">The Senior Citizens Association has a rich
         history dating back to the 1990s when it was founded under the dedicated leadership of the late Barangay
-        Captain Gregorio Rupisan. Captain Rupisan played a pivotal role in its establishment, providing an initial
+        Captain Gregorio Rupisan&apos;s. Captain Rupisan played a pivotal role in its establishment, providing an initial
         budget of ten thousand pesos to kickstart the association. Over the years, the leadership was passed to 
         Kagawad Jean Ortiz, followed by President Collette Ferrer, and currently, President Josie Macapagal, who also
         holds the esteemed position of Federation President for Pasig City.</p>
@@ -23,10 +24,7 @@ export default function AboutUs() {
         <p className="w-10/12 text-justify tracking-wide text-xl"> Furtheremore, for the year 2023, the association has secured a budget of 1 million pesos for various signed 
           projects and activities, demonstrating its commitment to improving the lives of senior citizens in the community.
         </p>
-        <div className="flex justify-center items-center gap-6">
-          <img className="w-1/2 shadow-lg hover:shadow-xl " src="/assets/Banner.jpg" alt="" />
-        </div>
-        
+               
         <section className="flex flex-1 justify-start items-center flex-col gap-6">
           <h2 className="font-bold mt-5 text-2xl uppercase tracking-wide text-blue-900">Vision and Mission</h2>
           <p className="text-xl tracking-widest font-semibold">Vision</p>
@@ -43,7 +41,8 @@ export default function AboutUs() {
             <p className="text-center uppercase text-lg">The team behind the Senior Citizens Association</p>
             <p className="text-center font-semibold text-xl mt-5">Executive Committee</p>
             <div className="grid place-items-center mt-5">
-              <img src="/assets/bot/Pres.png" alt="President&apos;s Image" />
+              <img src="/assets/bot/Pres.png" alt="President&apos;s Image"
+ />
             </div>
             <div className="flex justify-center items-center">
               <div className="grid grid-cols-2 lg:grid-cols-4 sm:grid-cols-1 gap-10 p-5">
@@ -69,7 +68,7 @@ export default function AboutUs() {
               </div>
             </div>
 
-            <h4 className="text-center font-semibold text-xl mt-5">Board Members</h4>
+            <h4 className="text-center font-semibold text-xl mt-5">Board Members&apos;</h4>
             <div className="flex justify-center items-center">
               <div className="grid grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-10 p-5">
                 <img src="/assets/bot/BM4.png" 
