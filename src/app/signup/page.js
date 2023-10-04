@@ -10,7 +10,7 @@ export default function SignupPage() {
     middleName: "",
     lastName: "",
     contactnumber: "",
-    idnumber: "",
+    profession: "",
     address: "",
   });
   const [buttonDisabled, setButtonDisabled] = React.useState(false);
@@ -19,7 +19,7 @@ export default function SignupPage() {
   }
 
   useEffect(() => {
-    if(user.idnumber.length > 0 && user.contactnumber.length > 0) {
+    if(user.profession.length > 0 && user.contactnumber.length > 0) {
       setButtonDisabled(false);
     } else  {
       setButtonDisabled(true);
@@ -34,7 +34,7 @@ export default function SignupPage() {
     <div className="flex justify-center items-center min-h-screen">
       <div className="max-w-[700px] w-full px-4 py-8">
         <p className="text-xl tracking-widest text-center font-bold uppercase text-black">
-          Explore, Engage, Empower!
+          brgy. san antonio senior citizens association
         </p>
         <h2 className="py-4 italic text-center">
           Join the online database of the Senior Citizens Association in Brgy.
@@ -115,16 +115,16 @@ export default function SignupPage() {
                   className="py-3 px-3 border rounded-lg"
                 />
 
-                <label htmlFor="idnumber" className="mt-4 uppercase font-semibold">
-                  OSCA ID No.
+                <label htmlFor="profession" className="mt-4 uppercase font-semibold">
+                  Profession
                 </label>
                 <input
-                  id="idnumber"
+                  id="profession"
                   type="text"
-                  name="idnumber"
-                  value={user.idnumber}
-                  onChange={(e) => setUser({...user, idnumber: e.target.value})}
-                  placeholder="ID Number"
+                  name="profession"
+                  value={user.profession}
+                  onChange={(e) => setUser({...user, profession: e.target.value})}
+                  placeholder="Profession"
                   className="py-3 px-3 border rounded-lg"
                 />
 
@@ -152,7 +152,7 @@ export default function SignupPage() {
                 {buttonDisabled ? "Register here" : "Register"}
               </button>
               <Link className="mt-4 text-green-900 font-bold underline" href="/">
-                Get Started
+                EXPLORE NOW
               </Link>
             </div>
             </div>

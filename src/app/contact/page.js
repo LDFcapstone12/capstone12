@@ -2,40 +2,35 @@
 import React, { useState } from 'react';
 
 export default function Contact() {
-  const [fullname, setFullname] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [error, setError] = useState([]);
-  const [success, setSuccess] = useState (false);
+  const [formData, setFormData] = useState ({
+    fullname: '',
+    email: '',
+    message: '',
+  });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    console.log("Full name: ", fullname);
-    console.log("Email: ", email);
-    console.log("Message: ", message);
-
-    const res = await fetch("api/contact", {
-      method: "POST",
-      headers: {
-        "Content-type": "application/json",
-      },
-      body: JSON.stringify({
-        fullname,
-        email,
-        message,
-      }),
-    });
-
-      const { msg, success } = await res.json();
-      setError(msg);
-      setSuccess(success);
-
-      if (success) {
-        setFullname("");
-        setEmail("");
-        setMessage("");
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        console.log('Message sent successfully!');
+      } else {
+        console.error('Error sending message');
       }
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
+
+  const handleChange = (e) => {
+    const { id, value } = e.target; setFormData({ ...formData, [id]: value });
   };
 
   return (
@@ -51,13 +46,13 @@ export default function Contact() {
               Full Name
             </label>
             <input
-              onChange={(e) => setFullname(e.target.value)}
-              value={fullname}
+              onChange={handleChange}
+              value={formData.fullname}
               id="fullname"
               className="border-2 rounded-lg p-3 border-gray-400"
               type="text"
               required
-              autoComplete="name"
+              autoComplete="fullname"
             />
           </div>
 
@@ -66,8 +61,8 @@ export default function Contact() {
               Email
             </label>
             <input
-              onChange={(e) => setEmail(e.target.value)}
-              value={email}
+              onChange={handleChange}
+              value={formData.email}
               type="text"
               id="email"
               className="border-2 rounded-lg p-3 border-gray-400"
@@ -80,8 +75,8 @@ export default function Contact() {
               Message
             </label>
             <textarea
-              onChange={(e) => setMessage(e.target.value)}
-              value={message}
+              onChange={handleChange}
+              value={formData.message}
               id="message"
               className="border-2 rounded-lg p-3 border-gray-400"
               rows={6}
@@ -95,19 +90,8 @@ export default function Contact() {
           >
             Send Message
           </button>
-        </form>
-
-        <div className="bg-slate-100 flex flex-col mt-4">
-          {error && error.map((e, index) => (
-            <div
-              key={index}
-              className={`${formSuccess ? "text-green-800" : "text-red-600"} px-5 py-2`}
-            >
-              {e}
-        </div>
-          ))}
+        </form>       
         </div>
       </div>
-    </div>
   );
 }

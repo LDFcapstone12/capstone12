@@ -29,12 +29,16 @@ export default function Team() {
     };
     
     return (
-        <div className="max-w-[1400px] mt-5 w-full items-center justify-center m-auto py-15 px-4 relative group">
+        <div className="max-w-[1400px] mt-10 w-full items-center justify-center m-auto py-15 px-4 relative group">
             <h1 className="text-center text-3xl font-bold mb-4">Senior Citizens' Team Building</h1>
-            <p className="text-center mb-8">Sentence here!</p>
+            <p className="text-justify mb-8 text-lg">The Senior Citizens Board of Trustees had a special event on July 5, 2023, at Siena's
+            Events Place in Antipolo. The main goal of this gathering was to help senior citizens understand the role of civil society
+            organizations in local government and how they can be a part of it. It was like a learning day for the senior members to
+            get ready for active involveent in city governance. This event showd how important they are in CSOs and how much they can do to 
+            improve their community. It was a day of learning, inspiration, and building connections among senior citizens for the greater good. </p>
             <div
                 style={backgroundImageStyle}
-                className="w-full h-[60vh] md:h-[780px] rounded-2xl bg-center bg-cover duration-500 relative"
+                className="w-full h-[60vh] md:h-[780px] rounded-2xl bg-center bg-cover duration-500 relative mb-10"
             >
                 <div className="absolute inset-0 flex items-center">
                     <div
@@ -51,10 +55,6 @@ export default function Team() {
                     </div>
                 </div>
             </div>
-            <footer className="mt-8 text-center text-gray-600">
-                {/* Footer content */}
-                &copy; {new Date().getFullYear()} BSA - Senior Citizens Association. All rights reserved.
-            </footer>
         </div>
     );
 }

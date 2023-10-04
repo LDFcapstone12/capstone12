@@ -34,12 +34,16 @@ export default function Seminar() {
     };
     
     return (
-        <div className="max-w-[1400px] mt-5 w-full items-center justify-center m-auto py-15 px-4 relative group">
+        <div className="max-w-[1400px] mt-10 w-full items-center justify-center m-auto py-15 px-4 relative group">
             <h1 className="text-center text-3xl font-bold mb-4">Container Gardening Seminar</h1>
-            <p className="text-center mb-8">Sentence here!</p>
+            <p className="mb-8 text-justify text-lg">The seminar on Urban Gardening in a Highly Urbanized Community, held on September 16, 2023, at the
+            Jollibee Shaw Blvd. corner Escriva Drive, was an exceptional event that united the residents of Pasig City's vibrant 
+            Barangay San Antonio. This event was the resilt of a collaborative initiative undertaken by the San Antonio Council and Brgy.
+            San Antonio Senior Citizens Association, Inc. Its primary objective was to disseminate valuable insights into urban gardening, with a specific
+            focus on addressing the distinctive challenges and prospects that high-reise living posses in this locality.</p>
             <div
                 style={backgroundImageStyle}
-                className="w-full h-[60vh] md:h-[780px] rounded-2xl bg-center bg-cover duration-500 relative"
+                className="w-full h-[60vh] md:h-[780px] rounded-2xl bg-center bg-cover duration-500 relative mb-10"
             >
                 <div className="absolute inset-0 flex items-center">
                     <div
@@ -56,10 +60,6 @@ export default function Seminar() {
                     </div>
                 </div>
             </div>
-            <footer className="mt-8 text-center text-gray-600">
-                {/* Footer content */}
-                &copy; {new Date().getFullYear()} BSA - Senior Citizens Association. All rights reserved.
-            </footer>
         </div>
     );
 }

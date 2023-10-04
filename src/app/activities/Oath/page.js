@@ -35,12 +35,19 @@ export default function Oath() {
     };
     
     return (
-        <div className="max-w-[1400px] mt-5 w-full items-center justify-center m-auto py-15 px-4 relative group">
+        <div className="max-w-[1400px] mt-10 w-full items-center justify-center m-auto py-15 px-4 relative group">
             <h1 className="text-center text-3xl font-bold mb-4">Board of Trustees Oath Taking</h1>
-            <p className="text-center mb-8">Sentence here!</p>
+            <p className="text-justify mb-8 text-lg">The visit was a respectful and formal gesture as the senior citizen officers
+            paid a courtesy call to Barangay Captain Thomas Raymond Lising. The occasion also marked an important milestone
+            when the newly elected senior citizen officers took their oaths on February 24, 2023, at the third-floor office of
+            Barangay Captain Lising. During the meeting, Captain Raymond expressed his strong desire to maintain and further develop
+            collaborative projects with the senior citizens' association, underscoring the community's commitment to suuporting 
+            its elderly members. He also emphasized the significance of nurturing a robust and cooperative partnership between the Barangay
+            council and the senior citizens' association, recognizing that such a collaborative would be instrumental in enhancing the 
+            overall well-being of the community and addressing the unique needs and concerns of its senior population.</p>
             <div
                 style={backgroundImageStyle}
-                className="w-full h-[60vh] md:h-[780px] rounded-2xl bg-center bg-cover duration-500 relative"
+                className="w-full h-[60vh] md:h-[780px] rounded-2xl bg-center bg-cover duration-500 relative mb-10"
             >
                 <div className="absolute inset-0 flex items-center">
                     <div
@@ -57,10 +64,6 @@ export default function Oath() {
                     </div>
                 </div>
             </div>
-            <footer className="mt-8 text-center text-gray-600">
-                {/* Footer content */}
-                &copy; {new Date().getFullYear()} BSA - Senior Citizens Association. All rights reserved.
-            </footer>
         </div>
     );
 }

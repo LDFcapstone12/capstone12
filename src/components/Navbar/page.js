@@ -30,7 +30,7 @@ const Navbar = () => {
           <Link href='/benefits'>Senior Discounts and Benefits</Link>
         </li>
         <li>
-          <Link href='/projects'>Services and Programs</Link>
+          <Link href='/projects'>Gallery</Link>
         </li>
         <li>
           <Link href='/contact'>Contact Us</Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
             <li className='py-4 text-m'><Link href='/about'>About Us</Link></li>
             <li className='py-4 text-m'><Link href='/events'>News and Events</Link></li>
             <li className='py-4 text-m'><Link href='/benefits'>Senior Discounts and Benefits</Link></li>
-            <li className='py-4 text-m'><Link href='/projects'>Services and Programs</Link></li>
+            <li className='py-4 text-m'><Link href='/projects'>Gallery</Link></li>
             <li className='py-4 text-m'><Link href='/contact'>Contact Us</Link></li>
           </ul>
           <Link href='/signup'>
