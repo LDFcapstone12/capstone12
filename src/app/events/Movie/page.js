@@ -31,13 +31,13 @@ export default function Movie() {
         note of the following guidelines:</h2>
         <p className="text-justify mt-3">
           <span className="font-semibold">1. Senior ID and Cinema Booklet:</span> We kindly request that you bring your senior citizen identification
-          card along with your cinema booklet. For those who have yet obtain a cinema booklet, there is no need to worry. You can
+          card along with your cinema booklet. For those who have yet to obtain a cinema booklet, there is no need to worry. You can
           easily acquire one by visiting the 3rd floor of the barangay hall, where April dela Torre will be available to assist you.
         </p>
         <p className="text-justify mt-3">
           <span className="font-semibold">2. Screening Schedule:</span> It is crucial to note that each senior citizen is entitled
           to attend one movie screening every Monday. This scheduling approach has been designed to ensure that as many of our senior residents
-          possible can take advantage of this wonderful opportunity.
+          as possible can take advantage of this wonderful opportunity.
         </p>
         <p className="text-justify mt-3">
           <span className="font-semibold">3. Movie Selection:</span> The movies available for screening during this program will be those in their 

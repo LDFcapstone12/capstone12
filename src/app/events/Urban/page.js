@@ -12,7 +12,7 @@ export default function Urban() {
         SENIOR CITIZENS&apos; CONTAINER GARDENING PROJECT
       </h1>
       <div className="border shadow-lg rounded-xl shadow-gray-500">
-        <img
+        <Image
           src="/assets/news/Container.png"
           width="700"
           height="300"

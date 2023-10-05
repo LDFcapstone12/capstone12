@@ -11,7 +11,7 @@ const Fluitem = () => {
     height={250}
     alt="" />
     <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-      <h3 className="text-2xl text-gray-700 tracking-wider font-bold text-center">Senior Citizens' Flu Vaccination</h3>
+      <h3 className="text-2xl text-gray-700 tracking-wider font-bold text-center">Senior Citizens&rsquo; Flu Vaccination</h3>
       <p className="pb-4 pt-2 text-gray-700 text-center">September 6, 2023</p>
       <Link href='/activities/Flu'>
       <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">See More</p></Link>
@@ -20,4 +20,4 @@ const Fluitem = () => {
   )
 }
 
-export default Fluitem
+export default Fluitem;
