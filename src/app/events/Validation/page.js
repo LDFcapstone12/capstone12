@@ -31,9 +31,9 @@ export default function Validation() {
             as to allow them to update their profile information and maintain their names in our active master list of 
             legitimate members of the Senior Citizen group in Pasig.</p>
           <p className="text-justify mt-3">2. To update or modify our database if there have been changes in the present address, active contact number, 
-            health condition, and other information we need to know about the senior's condition, which we can relate to 
+            health condition, and other information we need to know about the senior&apos;s condition, which we can relate to 
             social welfare programs offered by our government.</p>
-          <p className="text-justify mt-3">3. If there have been issues with the application or qualification for the senior's applied program, 
+          <p className="text-justify mt-3">3. If there have been issues with the application or qualification for the senior&apos;s applied program, 
             their questions, suggestions, or other concerns will be given attention, explanation, and solutions here to 
             provide assistance.</p>
           <p className="text-justify mt-3 mb-10">4. This is also where we gather actual data or the number of beneficiaries, which serves as a crucial basis 

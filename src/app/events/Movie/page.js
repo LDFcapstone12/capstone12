@@ -22,7 +22,7 @@ export default function Movie() {
       <p className="w-10/12 text-lg text-justify mt-10 mx-auto">
         The revival of this program is a direct result of the passage of Ordinance No. 72-2023 by the 11th
         City Council of Pasig. This legislative decision underscores the forward-thinking and compassionate leadership
-        of Mayor Vico Sotto, who has consistently demonstrated his commitment to the welfare and contentment of Pasig's senior 
+        of Mayor Vico Sotto, who has consistently demonstrated his commitment to the welfare and contentment of Pasig&apos;s senior 
         citizens. Councilor Pao Santiago, who is entrusted with the oversight of Senior Citizens affairs, has played a pivotal role 
         in bringing this initiative back to life. The nearest screening venue for our beloved Barangay San Antonio resident is the <span className="font-bold italic text-blue-800">Estancia Mall & Ayala Malls The 30th.</span> 
       </p>
@@ -45,7 +45,7 @@ export default function Movie() {
         </p>
 
         <p className="text-justify mt-5">
-          This initiative serves as a heartwarming reminder of our community's deep appreciation for the leisure and enjoyment of our senior citizens.
+          This initiative serves as a heartwarming reminder of our community&apos;s deep appreciation for the leisure and enjoyment of our senior citizens.
           It extends a warm invitation to take a well-deserved break, immerse oneself in the enchantment of the silver screen, and forge cherished memories with friends
           and fellow residents.
         </p>

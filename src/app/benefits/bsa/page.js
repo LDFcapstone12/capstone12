@@ -37,14 +37,14 @@ export default function National() {
               eyeglasses, hearing aids, wheelchairs, dentures, medical procedures, examinations, and other healthcare-related expenses.
             </p>
             <p className="text-justify text-lg" >
-              It's worth noting that senior citizens can avail of these discounts on medicines and hospital bills, whether they make
+              It&apos;s worth noting that senior citizens can avail of these discounts on medicines and hospital bills, whether they make
               their purchases in physical stores or through online transactions in the Philippines.
             </p>
 
             <h2 className='my-3 uppercase text-blue-950 font-semibold'>To access the Senior Citizen Discount for medical expenses in the Philippines, follow these steps:</h2>
             <p>1. When purchasing medicines and other elderly care items from physical pharmacies:</p>    
             <li className='ml-5'>Ensure you have your senior citizen ID, Office of the Senior Citizen Affairs (OSCA) purchase booklet, and prescription slips with you.</li>
-            <li className='ml-5'>In the case of online purchases, take a screenshot of the required documents and upload them onto the merchant's platform</li>
+            <li className='ml-5'>In the case of online purchases, take a screenshot of the required documents and upload them onto the merchant&apos;s platform</li>
 
             <p>2. When undergoing medical procedures at clinics and hospitals:</p>    
             <li className='ml-5'>Present your senior ID, OSCA purchase booklet, along with any other pertinent medical documents when settling your bill.</li>  
@@ -59,13 +59,13 @@ export default function National() {
           </h1>
           <p className="text-justify text-lg" style={isOpen ? null : paragraphStyles}>
             Additionally, senior citizens have the opportunity to access discounts on their utility bills when the discounts
-            are registered in their names. As long as the household's consumption remains below 100 kWh of electricity and 30
+            are registered in their names. As long as the household&apos;s consumption remains below 100 kWh of electricity and 30
             cubic meters of water, a 5% discount can be applied to both electric and water bills.
 
             <h2 className='my-3 uppercase text-blue-950 font-semibold'>To access the Senior Citizen Discount on electric and utility bills, follow these steps:</h2>
             <p>1. When making payments at the closest payment center:</p>    
             <li className='ml-5'>Ensure you have your senior citizen ID readily available.</li>
-            <li className='ml-5'>Present the utility bill registered under the senior citizen's name.</li> 
+            <li className='ml-5'>Present the utility bill registered under the senior citizen&apos;s name.</li> 
             <li className='ml-5'>Provide any additional documentation that serves as proof of address as necessary.</li> 
           </p>      
           <button className='mt-3 py-1 p-3 border bg-blue-800 text-white font-semibold' onClick={() => setIsOpen(!isOpen)}>{isOpen ? 'READ LESS...' : 'READ MORE...'}
@@ -102,7 +102,7 @@ export default function National() {
             <li className='ml-5'>Seniors should carry their OSCA-issued senior citizen ID and OSCA purchase booklet.</li>
             <li className='ml-5'>If you are shopping on behalf of a senior family member, provide their senior citizen ID, OSCA booklet, along with an authorization letter to claim the 5%.</li> 
             <li className='ml-5'>Provide any additional documentation that serves as proof of address as necessary.</li>   
-            <p>2. It's important to note that the discount is applicable for both in-store and online purchases.</p>   
+            <p>2. It&apos;s important to note that the discount is applicable for both in-store and online purchases.</p>   
             <p>3. Please be aware that the special discount does not apply to purchases made at sari-sari stores, cooperative stores, wet markets, and talipapa.</p>            
           </p>      
           <button className='mt-3 py-1 p-3 border bg-blue-800 text-white font-semibold' onClick={() => setIsOpen(!isOpen)}>{isOpen ? 'READ LESS...' : 'READ MORE...'}
@@ -114,15 +114,15 @@ export default function National() {
             4. Discount on Dining Transactions
           </h1>
           <p className="text-justify text-lg" style={isOpen ? null : paragraphStyles}>
-            When taking your parents or grandparents out for a meal, it's essential to keep in mind that senior citizens in the Philippines are eligible for a 20% discount at 
+            When taking your parents or grandparents out for a meal, it&apos;s essential to keep in mind that senior citizens in the Philippines are eligible for a 20% discount at 
             various restaurants and well-known fast-food chains, including Jollibee, McDonalds, KFC, Greenwich, and Mang Inasal. Additionally, they can also apply the senior citizen
             discount to food delivery apps such as GrabFood and Foodpanda, among others. This benefit allows seniors to enjoy dining out or ordering in with more affordability and convenience.
 
             <h2 className='my-3 uppercase text-blue-950 font-semibold'>To claim the Restaurant Discount:</h2>
             <p>1. When dining in the restaurant:</p>    
-            <li className='ml-5'>Simply present the senior citizen's ID during the ordering or payment process.</li>
+            <li className='ml-5'>Simply present the senior citizen&apos;s ID during the ordering or payment process.</li>
             <p>2. For online food deliveries:</p>    
-            <li className='ml-5'>Mention the senior citizen's name and senior citizen number during the ordering process.</li>
+            <li className='ml-5'>Mention the senior citizen&apos;s name and senior citizen number during the ordering process.</li>
           </p>      
           <button className='mt-3 py-1 p-3 border bg-blue-800 text-white font-semibold' onClick={() => setIsOpen(!isOpen)}>{isOpen ? 'READ LESS...' : 'READ MORE...'}
           </button>  
