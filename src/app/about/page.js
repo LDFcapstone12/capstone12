@@ -16,9 +16,9 @@ export default function AboutUs() {
           budget of ten thousand pesos to kickstart the association. Over the years, the leadership was passed to 
           Kagawad Jean Ortiz, followed by President Collette Ferrer, and currently, President Josie Macapagal, who also
           holds the esteemed position of Federation President for Pasig City.</p>
-          <p className="w-10/12 text-justify tracking-wide text-xl"> The association's office is conveniently located on the 2nd floor of the Barangay Hall at #7 Gen. Malvar St.,
+          <p className="w-10/12 text-justify tracking-wide text-xl"> The association&apos;s office is conveniently located on the 2nd floor of the Barangay Hall at #7 Gen. Malvar St.,
             Brgy. San Antonio Village, Pasig City. The current Barangay Captain, Thomas Raymond Lising, has been exceptionally
-            suuportive of the association's plans, projects, and activities. He recognizes the dedication of the officers and their
+            suuportive of the association&apos;s plans, projects, and activities. He recognizes the dedication of the officers and their
             commitment to assisting members, brimming with innovative ideas on how to better reach and serve their members.
           </p>
           <p className="w-10/12 text-justify tracking-wide text-xl"> Furtheremore, for the year 2023, the association has secured a budget of 1 million pesos for various signed 
@@ -32,7 +32,7 @@ export default function AboutUs() {
             <p className="text-xl tracking-widest font-semibold">Mission</p>
             <p className="w-10/12 text-justify text-xl">Promotion of active ageing, through social protection and support for the rights
             and welfare of senior citizens and their empowerment by developing policies, programs, projects and services implemented with or 
-            through Local Government Units, Non-Government Organizations, People's Organizations, National Government Agencies and other members of 
+            through Local Government Units, Non-Government Organizations, People&apos;s Organizations, National Government Agencies and other members of 
             civil society.</p>
         </section>           
         </div>
