@@ -65,7 +65,7 @@ export default function National() {
                         <h2 className='my-3 uppercase text-blue-950 font-semibold'>To access the Senior Citizen Discount on electric and utility bills, follow these steps:</h2>
                             <p>1. When making payments at the closest payment center:</p>    
                                 <li className='ml-5'>Ensure you have your senior citizen ID readily available.</li>
-                                <li className='ml-5'>Present the utility bill registered under the senior citizen's name.</li> 
+                                <li className='ml-5'>Present the utility bill registered under the senior citize&apos;s name.</li> 
                                 <li className='ml-5'>Provide any additional documentation that serves as proof of address as necessary.</li> 
                     </p>      
                     <button className='mt-3 py-1 p-3 border bg-blue-800 text-white font-semibold' onClick={() => setIsOpen(!isOpen)}>{isOpen ? 'READ LESS...' : 'READ MORE...'}
