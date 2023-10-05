@@ -8,7 +8,7 @@ import { useState } from 'react';
     display: '-webkit-box',
 }
 
-export default function BSA() {
+export default function Pasig() {
     const [isOpen, setIsOpen] = useState(false);
   
 

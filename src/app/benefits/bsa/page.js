@@ -8,14 +8,14 @@ const paragraphStyles = {
   display: '-webkit-box',
 };
 
-export default function National() {
+export default function Bsa() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="w-100% mt-12 my-10">
       <div className="flex flex-1 justify-start items-center flex-col gap-6">
         <div className="font-bold text-2xl uppercase tracking-wide text-blue-900">
-          <h1>NATIONAL GOVERNMENT BENEFITS</h1>
+          <h1>Brgy. San Antonio</h1>
         </div>
         <p className='w-full lg:w-1/2 text-lg text-justify'>According to Republic Act 994, individuals in the Philippines who are 60 years old and above are
           eligible for a 20% discount and are also exempt from the value-added tax (VAT) on eligible goods
