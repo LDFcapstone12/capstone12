@@ -1,20 +1,17 @@
-"use client";
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 
-export default function Seminar() {
+export default function Oath() {
     const slides = [
-        { src: "/assets/projects/seminar/1.jpg", alt: "Slide 1" },
-        { src: "/assets/projects/seminar/2.jpg", alt: "Slide 2" },
-        { src: "/assets/projects/seminar/3.jpg", alt: "Slide 3" },
-        { src: "/assets/projects/seminar/4.jpg", alt: "Slide 4" },
-        { src: "/assets/projects/seminar/6.jpg", alt: "Slide 6" },
-        { src: "/assets/projects/seminar/7.jpg", alt: "Slide 7" },
-        { src: "/assets/projects/seminar/8.jpg", alt: "Slide 8" },
-        { src: "/assets/projects/seminar/9.jpg", alt: "Slide 9" },
-        { src: "/assets/projects/seminar/10.jpg", alt: "Slide 10" },
-        
-        
+        { src: "/assets/projects/oath/1.jpg", alt: "Slide 1" },
+        { src: "/assets/projects/oath/2.jpg", alt: "Slide 2" },
+        { src: "/assets/projects/oath/3.jpg", alt: "Slide 3" },
+        { src: "/assets/projects/oath/4.jpg", alt: "Slide 4" },
+        { src: "/assets/projects/oath/5.jpg", alt: "Slide 5" },
+        { src: "/assets/projects/oath/6.jpg", alt: "Slide 6" },
+        { src: "/assets/projects/oath/7.jpg", alt: "Slide 7" },
+        { src: "/assets/projects/oath/8.jpg", alt: "Slide 8" },
+        { src: "/assets/projects/oath/9.jpg", alt: "Slide 9" },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -35,12 +32,15 @@ export default function Seminar() {
     
     return (
         <div className="max-w-[1400px] mt-10 w-full items-center justify-center m-auto py-15 px-4 relative group">
-            <h1 className="text-center text-3xl font-bold mb-4">Container Gardening Seminar</h1>
-            <p className="mb-8 text-justify text-lg">The seminar on Urban Gardening in a Highly Urbanized Community, held on September 16, 2023, at the
-            Jollibee Shaw Blvd. corner Escriva Drive, was an exceptional event that united the residents of Pasig City's vibrant 
-            Barangay San Antonio. This event was the resilt of a collaborative initiative undertaken by the San Antonio Council and Brgy.
-            San Antonio Senior Citizens Association, Inc. Its primary objective was to disseminate valuable insights into urban gardening, with a specific
-            focus on addressing the distinctive challenges and prospects that high-reise living posses in this locality.</p>
+            <h1 className="text-center text-3xl font-bold mb-4">Board of Trustees Oath Taking</h1>
+            <p className="text-justify mb-8 text-lg">The visit was a respectful and formal gesture as the senior citizen officers
+            paid a courtesy call to Barangay Captain Thomas Raymond Lising. The occasion also marked an important milestone
+            when the newly elected senior citizen officers took their oaths on February 24, 2023, at the third-floor office of
+            Barangay Captain Lising. During the meeting, Captain Raymond expressed his strong desire to maintain and further develop
+            collaborative projects with the senior citizens&apos; association, underscoring the community&apos;s commitment to supporting 
+            its elderly members. He also emphasized the significance of nurturing a robust and cooperative partnership between the Barangay
+            council and the senior citizens&apos; association, recognizing that such a collaborative would be instrumental in enhancing the 
+            overall well-being of the community and addressing the unique needs and concerns of its senior population.</p>
             <div
                 style={backgroundImageStyle}
                 className="w-full h-[60vh] md:h-[780px] rounded-2xl bg-center bg-cover duration-500 relative mb-10"

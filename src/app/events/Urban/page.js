@@ -9,7 +9,7 @@ export default function Urban() {
   return (
     <div className="w-full lg:items-center gap-10 mt-5 p-6">
       <h1 className="lg:ml-1 text-2xl text-center font-bold uppercase py-2">
-        SENIOR CITIZENS' CONTAINER GARDENING PROJECT
+        SENIOR CITIZENS&apos; CONTAINER GARDENING PROJECT
       </h1>
       <div className="border shadow-lg rounded-xl shadow-gray-500">
         <img
@@ -21,7 +21,7 @@ export default function Urban() {
         />
       <p className="w-10/12 text-lg text-justify mt-10 mx-auto">
         Urban gardening has become a vital and sustainable solution to address food security and environmental concerns
-        in the Philippines. As the country's population continues to grow and urbanize, there is an increasing need to find
+        in the Philippines. As the country&apos;s population continues to grow and urbanize, there is an increasing need to find
         innovative ways to produce food locally and reduce the strain on rural agricultural resources. Urban gardening 
         offers a promising avenue for individuals and communities to contribute to food production, foster self-sufficiency, and
         create green, livable cities.
@@ -35,7 +35,7 @@ export default function Urban() {
       
       <p className="w-10/12 text-lg text-justify mt-5 mx-auto">Given that Barangay San Antonio primarily consists of buildings with limited
       availbale land for traditional gardening, a seminar was specifically conducted on container gardening. This approach was chosen due to its 
-      suitability for Barangay San Antonio's unique conditions and to allow them to participate in the urban gardening contest organized by the city
+      suitability for Barangay San Antonio&apos;s unique conditions and to allow them to participate in the urban gardening contest organized by the city
       government. This opportunity is open to all senior citizens residing in Barangay San Antonio. We intend to create a group that will actively participate
       in the contest.</p>
 

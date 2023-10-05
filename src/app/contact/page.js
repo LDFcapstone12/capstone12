@@ -1,8 +1,7 @@
-"use client";
 import React, { useState } from 'react';
 
 export default function Contact() {
-  const [formData, setFormData] = useState ({
+  const [formData, setFormData] = useState({
     fullname: '',
     email: '',
     message: '',
@@ -30,7 +29,8 @@ export default function Contact() {
   };
 
   const handleChange = (e) => {
-    const { id, value } = e.target; setFormData({ ...formData, [id]: value });
+    const { id, value } = e.target;
+    setFormData({ ...formData, [id]: value });
   };
 
   return (
@@ -38,7 +38,7 @@ export default function Contact() {
       <div className="max-w-screen-md w-full px-4 py-8">
         <h1 className="text-3xl font-bold text-center mb-4">Contact Us</h1>
         <p className="text-center italic text-gray-600">
-          Please don't hesitate to reach out with your questions, suggestions, or if you need assistance.
+          Please don&apos;t hesitate to reach out with your questions, suggestions, or if you need assistance.
         </p>
         <form onSubmit={handleSubmit} className="border-t-4 border-[#affd2d] shadow-lg rounded-xl p-4 mt-4 space-y-4">
           <div className="flex flex-col">
@@ -90,8 +90,8 @@ export default function Contact() {
           >
             Send Message
           </button>
-        </form>       
-        </div>
+        </form>
       </div>
+    </div>
   );
 }

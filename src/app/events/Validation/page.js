@@ -9,7 +9,7 @@ export default function Validation() {
   return (
     <div className="w-full lg:items-center gap-10 mt-5 p-6">
       <h1 className="lg:ml-1 text-2xl text-center font-bold uppercase py-2">
-        ANNUAL SENIOR CITIZENS' VALIDATION
+        ANNUAL SENIOR CITIZENS&apos; VALIDATION
       </h1>
       <div className="border shadow-lg rounded-xl shadow-gray-500">
         <img

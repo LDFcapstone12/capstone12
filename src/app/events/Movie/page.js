@@ -12,7 +12,7 @@ export default function Movie() {
         FREE MOVIE FOR SENIOR CITIZENS
       </h1>
       <div className="border shadow-lg rounded-xl shadow-gray-500">
-        <img
+        <Image
           src="/assets/news/Movie.png"
           width="700"
           height="300"

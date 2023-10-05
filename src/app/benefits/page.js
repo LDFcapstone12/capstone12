@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
     title: 'Discount & Benefits : BSA Senior Citizens Association',
@@ -15,7 +16,7 @@ export default function Benefits() {
       <div className="p-6 shadow-xl rounded-xl hover:scale-105 hover:bg-[#d64545] hover:text-white  ease-in duration-300">
         <div className="grid grid-cols-2 gap-4 justify-center items-center">
           <div className="m-auto">
-            <img src="/assets/logo/PH.png" 
+            <Image src="/assets/logo/PH.png" 
             width={64}
             height={64}
             alt="" />
@@ -31,7 +32,7 @@ export default function Benefits() {
       <div className="p-6 shadow-xl rounded-xl hover:scale-105 hover:bg-[#5858df] hover:text-white  ease-in duration-300">
         <div className="grid grid-cols-2 gap-4 justify-center items-center">
           <div className="m-auto">
-            <img src="/assets/logo/Pasig.png" 
+            <Image src="/assets/logo/Pasig.png" 
             width={75}
             height={70}
             alt="" />
@@ -47,7 +48,7 @@ export default function Benefits() {
       <div className="p-6 shadow-xl rounded-xl hover:scale-105 hover:bg-[#affd2d] hover:text-white ease-in duration-300">
         <div className="grid grid-cols-2 gap-4 justify-center items-center">
           <div className="m-auto">
-            <img src="/assets/logo/BSA.png" 
+            <Image src="/assets/logo/BSA.png" 
             width={64}
             height={64}
             alt="" />

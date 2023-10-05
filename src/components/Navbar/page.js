@@ -1,9 +1,10 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import './Navbar.css';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import { useRouter } from 'next/navigation';
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -16,7 +17,10 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
       <div className='navbar-logo'>
-        <img src='/assets/logo/SCA.png' alt="/" />
+        <Image src='/assets/logo/SCA.png' 
+        width={100}
+        height={50}
+        alt="/"  />
       <h1 className='text-lg lg:text-lg uppercase font-bold'><Link href='/'>Senior Citizens Association</Link></h1>
       </div>
       <ul className='navbar-links uppercase lg:text-center text-lg lg:text-lg font-semibold'>
@@ -45,7 +49,7 @@ const Navbar = () => {
         : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
         <div>
           <div className='flex w-full items-center justify-between'>
-            <img src="/assets/logo/SCA.png" 
+            <Image src="/assets/logo/SCA.png" 
             width={87}
             height={35}
             alt=""/>

@@ -1,4 +1,3 @@
-"use client";
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 
@@ -30,8 +29,8 @@ export default function Team() {
     
     return (
         <div className="max-w-[1400px] mt-10 w-full items-center justify-center m-auto py-15 px-4 relative group">
-            <h1 className="text-center text-3xl font-bold mb-4">Senior Citizens' Team Building</h1>
-            <p className="text-justify mb-8 text-lg">The Senior Citizens Board of Trustees had a special event on July 5, 2023, at Siena's
+            <h1 className="text-center text-3xl font-bold mb-4">Senior Citizens&apos; Team Building</h1>
+            <p className="text-justify mb-8 text-lg">The Senior Citizens Board of Trustees had a special event on July 5, 2023, at Siena&apos;s
             Events Place in Antipolo. The main goal of this gathering was to help senior citizens understand the role of civil society
             organizations in local government and how they can be a part of it. It was like a learning day for the senior members to
             get ready for active involveent in city governance. This event showd how important they are in CSOs and how much they can do to 

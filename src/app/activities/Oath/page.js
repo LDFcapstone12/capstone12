@@ -1,4 +1,3 @@
-"use client";
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 
@@ -13,9 +12,6 @@ export default function Oath() {
         { src: "/assets/projects/oath/7.jpg", alt: "Slide 7" },
         { src: "/assets/projects/oath/8.jpg", alt: "Slide 8" },
         { src: "/assets/projects/oath/9.jpg", alt: "Slide 9" },
-       
-        
-        
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -41,9 +37,9 @@ export default function Oath() {
             paid a courtesy call to Barangay Captain Thomas Raymond Lising. The occasion also marked an important milestone
             when the newly elected senior citizen officers took their oaths on February 24, 2023, at the third-floor office of
             Barangay Captain Lising. During the meeting, Captain Raymond expressed his strong desire to maintain and further develop
-            collaborative projects with the senior citizens' association, underscoring the community's commitment to suuporting 
+            collaborative projects with the senior citizens&apos; association, underscoring the community&apos;s commitment to supporting 
             its elderly members. He also emphasized the significance of nurturing a robust and cooperative partnership between the Barangay
-            council and the senior citizens' association, recognizing that such a collaborative would be instrumental in enhancing the 
+            council and the senior citizens&apos; association, recognizing that such a collaborative would be instrumental in enhancing the 
             overall well-being of the community and addressing the unique needs and concerns of its senior population.</p>
             <div
                 style={backgroundImageStyle}

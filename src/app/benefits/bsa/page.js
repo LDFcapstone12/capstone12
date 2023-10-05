@@ -15,7 +15,7 @@ export default function BSA() {
           
       <div className="flex flex-wrap lg:items-center mt-5 p-6">
         <div className="w-full lg:w-1/2">
-          <img
+          <Image
             src="/assets/benefits/Mid-year cash gift.png"
             width="600"
             height="300"
@@ -43,7 +43,7 @@ export default function BSA() {
         </div>
 
         <div className="w-full lg:w-1/2 mt-14">
-          <img
+          <Image
             src="/assets/benefits/Birthday.png"
             width="600"
             height="300"
@@ -67,7 +67,7 @@ export default function BSA() {
         
 
         <div className="w-full lg:w-1/2 mt-14">
-          <img
+          <Image
             src="/assets/benefits/Pensioners.png"
             width="600"
             height="300"
@@ -93,7 +93,7 @@ export default function BSA() {
         </div>
 
         <div className="w-full lg:w-1/2 mt-14">
-          <img
+          <Image
             src="/assets/benefits/Cashgift.png"
             width="600"
             height="300"
