@@ -32,7 +32,7 @@ export default function SignupPage() {
 
   return (
     <div className="flex justify-center items-center min-h-screen">
-      <div className="max-w-[700px] w-full px-4 py-8">
+      <div className="w-full max-w-[700px]  px-4 py-8">
         <p className="text-xl tracking-widest text-center font-bold uppercase text-black">
           brgy. san antonio senior citizens association
         </p>

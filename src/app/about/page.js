@@ -49,7 +49,7 @@ export default function AboutUs() {
               height={150} />
             </div>
             <div className="flex justify-center items-center">
-              <div className="grid grid-cols-2 lg:grid-cols-4 sm:grid-cols-1 gap-10 p-5">
+              <div className="grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-1 gap-10 p-5">
                   <Image src="/assets/bot/VP.png" 
                   width={289}
                   height={150}
@@ -74,7 +74,7 @@ export default function AboutUs() {
 
             <h4 className="text-center font-semibold text-xl mt-5">Board Members&apos;</h4>
             <div className="flex justify-center items-center">
-              <div className="grid grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-10 p-5">
+              <div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-1 gap-10 p-5">
                 <Image src="/assets/bot/BM4.png" 
                 width={289}
                 height={150}
@@ -108,7 +108,7 @@ export default function AboutUs() {
             </div>   
 
             <div className="flex justify-center items-center">
-              <div className="grid grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-10 p-5">
+              <div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 gap-10 p-5">
                 <Image src="/assets/bot/AS1.png" 
                 width={289}
                 height={150}

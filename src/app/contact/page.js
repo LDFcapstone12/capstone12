@@ -35,9 +35,9 @@ export default function Contact() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen">
-      <div className="max-w-screen-md w-full px-4 py-8">
-        <h1 className="text-3xl font-bold text-center mb-4">Contact Us</h1>
+    <div className="w-full max-w-[1240px] h-screen mx-auto py-8 md:py-16">
+      <h1 className="text-xl lg:text-2xl tracking-wider font-bold uppercase text-blue-900 text-center">Contact Us</h1>
+      <div className="w-full max-w-[700px] mx-auto items-center justify-center px-2 py-8">
         <p className="text-center italic text-gray-600">
           Please don&apos;t hesitate to reach out with your questions, suggestions, or if you need assistance.
         </p>
