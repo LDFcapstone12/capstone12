@@ -20,8 +20,8 @@ const HomeContent = {
 
 export default function Home() {
   return (
-    <section className="py-14">
-      <div className="w-5/6 px-4 mx-auto">
+    <section className="py-28">
+      <div className="w-5/6 mx-auto">
         <div className="lg:flex justify-between items-center">
           <div className="lg:w-5/12 mb-10 lg:mb-0">
 
@@ -42,7 +42,7 @@ export default function Home() {
             {HomeContent.text.description2 && <p className="leading-relaxed text-justify text-xl lg:text-xl mb-8">
               {HomeContent.text.description2}</p>}
 
-            <div className="flex justify-center pt-8">
+            <div className="flex justify-center pt-5">
               <Link href='/signup' className="py-1 px-7 tracking-normal text-xl lg:text-2xl bg-[#affd2d] text-black rounded-full
                 duration-300 transition-all ease-in-out hover:bg-[#affd2d] hover:shadow-lg
                 inline-block relative top-0 hover:top-1">Join Us</Link>

@@ -6,9 +6,11 @@ export const metadata = {
 
 export default function AboutUs() {
   return (
-    <section className="w-full mt-12">
+    <section className="w-full max-w-[1240px] mx-auto py-8 md:py-16">
       <div className="flex flex-1 justify-start items-center flex-col gap-6">
-        <h1 className="font-bold text-2xl uppercase tracking-wide text-blue-900">About Us</h1>
+      <h1 className="text-xl lg:text-2xl tracking-wider font-bold uppercase text-blue-900 text-center"> 
+        about us
+</h1>
           <p className="text-xl tracking-widest font-semibold">History</p>
           <p className="w-10/12 text-justify tracking-wide text-xl">The Senior Citizens Association has a rich
           history dating back to the 1990s when it was founded under the dedicated leadership of the late Barangay

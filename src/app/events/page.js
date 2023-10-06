@@ -8,8 +8,7 @@ export const metadata = {
 
 export default function Events() {
     return (
-        <div className="w-full max-w-[1240px] mx-auto px-4 py-8 md:py-16">
-            
+        <div className="w-full max-w-[1240px] mx-auto px-4 py-8 md:py-16">           
             <h1 className="text-xl lg:text-2xl tracking-wider font-bold uppercase text-blue-900 text-center">
                 News and Events
             </h1>

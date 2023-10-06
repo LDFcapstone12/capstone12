@@ -11,7 +11,7 @@ const paragraphStyles = {
 function ExpandableSection({ content, isExpanded, toggleExpand }) {
   return (
     <div>
-      <div className="text-justify text-lg" style={isExpanded ? null : paragraphStyles}>
+      <div className="py-4 font-serif lg:text-xl text-lg tracking-wide text-justify" style={isExpanded ? null : paragraphStyles}>
         {content}
       </div>
       <button className='mt-3 py-1 p-3 border bg-blue-800 text-white font-semibold' onClick={toggleExpand}>

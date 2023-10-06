@@ -11,7 +11,7 @@ const paragraphStyles = {
 function ExpandableSection({ content, isExpanded, toggleExpand }) {
   return (
     <div>
-      <div className="text-justify text-lg" style={isExpanded ? null : paragraphStyles}>
+      <div className="py-4 font-serif lg:text-xl text-lg tracking-wide text-justify" style={isExpanded ? null : paragraphStyles}>
         {content}
       </div>
       <button className='mt-3 py-1 p-3 border bg-blue-800 text-white font-semibold' onClick={toggleExpand}>
@@ -109,7 +109,7 @@ export default function Pasig() {
                     toggleExpand={() => setSection1Expanded(!section1Expanded)}
                     />
                     <h2 className='text-blue-950 text-lg font-semibold mt-5 uppercase'>Take note of the following guidelines:</h2>   
-                        <ul className='border bg-gray-100'>
+                        <ul className='border bg-gray-100 text-justify px-2 font-serif lg:text-xl text-lg tracking-wide'>
                             <li className='ml-2 text-lg'>1. Senior ID and Cinema Booklet.</li>
                             <li className='ml-2 text-lg'>2. Screening schedule.</li>
                             <li className='ml-2 text-lg'>3. Movie selection.</li>
@@ -126,7 +126,7 @@ export default function Pasig() {
                     toggleExpand={() => setSection2Expanded(!section2Expanded)}
                     />
                     <h2 className='text-blue-950 text-lg font-semibold mt-5 uppercase'>Take note of the following guidelines:</h2>   
-                        <ul className='border bg-gray-100'>
+                        <ul className='border bg-gray-100 text-justify px-2 font-serif lg:text-xl text-lg tracking-wide'>
                             <li className='ml-2 text-lg'>1. Bring your senior citizen&apos;s ID.</li>
                             <li className='ml-2 text-lg'>2. Have an updated prescription with you.</li>
                             <li className='ml-2 text-lg'>3. Bring any relevant medical records if available.</li>
@@ -143,7 +143,7 @@ export default function Pasig() {
                     toggleExpand={() => setSection3Expanded(!section3Expanded)}
                     />
                     <h2 className='text-blue-950 text-lg font-semibold mt-5 uppercase'>Take note of the following guidelines:</h2>   
-                        <ul className='border bg-gray-100'>
+                        <ul className='border bg-gray-100 text-justify px-2 font-serif lg:text-xl text-lg tracking-wide'>
                             <li className='ml-2 text-lg'>1. Bring your senior citizen&apos;s ID.</li>
                             <li className='ml-2 text-lg'>2. Bring your vaccination record.</li>
                         </ul>
@@ -159,7 +159,7 @@ export default function Pasig() {
                     toggleExpand={() => setSection4Expanded(!section4Expanded)}
                     />
                     <h2 className='text-blue-950 text-lg font-semibold mt-5 uppercase'>Take note of the following requirements:</h2>   
-                        <ul className='border bg-gray-100'>
+                        <ul className='border bg-gray-100 text-justify px-2 font-serif lg:text-xl text-lg tracking-wide'>
                             <li className='ml-2 text-lg'>1. Photocopy of Birth Certificate(PSA/NSO) or Certified True Copy from the Local Civil Registry, or Baptismal Certificate.</li>
                             <li className='ml-2 text-lg'>2. Photocopy of Senior Citizen&apos;s ID (front and back)</li>
                             <li className='ml-2 text-lg'>3. Pasig City Cash Card</li>
@@ -181,7 +181,7 @@ export default function Pasig() {
                     toggleExpand={() => setSection5Expanded(!section5Expanded)}
                     />
                     <h2 className='text-blue-950 text-lg font-semibold mt-5 uppercase'>Take note of the following requirements:</h2>   
-                        <ul className='border bg-gray-100'>
+                        <ul className='border bg-gray-100 text-justify px-2 font-serif lg:text-xl text-lg tracking-wide'>
                             <li className='ml-2 text-lg'>1. You must have a senior id</li>
                             <li className='ml-2 text-lg'>2. Must have a Pasig City cash card</li>
                         </ul>
@@ -197,17 +197,17 @@ export default function Pasig() {
                     toggleExpand={() => setSection6Expanded(!section6Expanded)}
                     />
                     <h2 className='text-blue-950 text-lg font-semibold mt-5 uppercase'>Take note of the following requirements:</h2>   
-                        <ul className='border bg-gray-100'>
+                        <ul className='border bg-gray-100 text-justify px-2 font-serif lg:text-xl text-lg tracking-wide'>
                             <li className='ml-2 text-lg'>1. Certified True Copy Death Certificate with Registry No.</li>
                             <li className='ml-2 text-lg'>2. Marriage Contract Husband/Wife of Deceased </li>
-                            <li className='ml-2 text-lg'>3. 2 Valid ID claimant</li>
-                            <li className='ml-2 text-lg'>3. Birth certificate of child claimant</li>
-                            <li className='ml-2 text-lg'>3. Surrender original OSCA white ID and Cash card of deceased member.</li>
-                            <li className='ml-2 text-lg'>3. Voters certificate if he/she died outside residence of Pasig City</li>
-                            <li className='ml-2 text-lg'>3. Certification from the Barangay Senior Association that the deceased is included in the masterlist
+                            <li className='ml-2 text-lg'>4. 2 Valid ID claimant</li>
+                            <li className='ml-2 text-lg'>5. Birth certificate of child claimant</li>
+                            <li className='ml-2 text-lg'>6. Surrender original OSCA white ID and Cash card of deceased member.</li>
+                            <li className='ml-2 text-lg'>7. Voters certificate if he/she died outside residence of Pasig City</li>
+                            <li className='ml-2 text-lg'>8. Certification from the Barangay Senior Association that the deceased is included in the masterlist
                             of Senior Citizens member in the barangay.</li>
-                            <li className='ml-2 text-lg'>3. Special Power of Attorney.</li>
-                            <li className='ml-2 text-lg'>3. Affidavit.</li>
+                            <li className='ml-2 text-lg'>9. Special Power of Attorney.</li>
+                            <li className='ml-2 text-lg'>10. Affidavit.</li>
                         </ul>
                 </div> 
 
@@ -221,7 +221,7 @@ export default function Pasig() {
                     toggleExpand={() => setSection7Expanded(!section7Expanded)}
                     />
                     <h2 className='text-blue-950 text-lg font-semibold mt-5 uppercase'>Take note of the following guidelines:</h2>   
-                        <ul className='border bg-gray-100'>
+                        <ul className='border bg-gray-100 text-justify px-2 font-serif lg:text-xl text-lg tracking-wide'>
                             <li className='ml-2 text-lg'>1. You must not be receiving any form of pension except for the DSWD Social Pension Program.</li>
                             <li className='ml-2 text-lg'>2. You need to submit an LSP application form.</li>
                             <li className='ml-2 text-lg'>3. The city hall will schedule interviews or assessments for those who have applied for the Local Senior Pension.</li>
