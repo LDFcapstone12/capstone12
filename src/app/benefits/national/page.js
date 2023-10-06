@@ -60,7 +60,7 @@ export default function National() {
   `;
 
   const section4Content = `
-    When taking your parents or grandparents out for a meal, it&apos;s essential to keep in mind that senior citizens in the Philippines are eligible for a 20% discount at 
+    When taking your parents or grandparents out for a meal, it's essential to keep in mind that senior citizens in the Philippines are eligible for a 20% discount at 
     various restaurants and well-known fast-food chains, including Jollibee, McDonalds, KFC, Greenwich, and Mang Inasal. Additionally, they can also apply the senior citizen
     discount to food delivery apps such as GrabFood and Foodpanda, among others. This benefit allows seniors to enjoy dining out or ordering in with more affordability and convenience.
   `;
@@ -194,7 +194,7 @@ PhilHealth plays a significant role in facilitating hospitalization benefits for
                 <ul className='border bg-gray-100 text-justify px-2 font-serif lg:text-xl text-lg tracking-wide'>
                     <li className='ml-2'>1. Complete two (2) copies of the PhilHealth Member Registration Form (PMRF).</li>
                     <li className='ml-2'>2. Attach a recent 1 x 1 photo taken within the last six months.</li>
-                    <li className='ml-2'>3. Present the Senior Citizens' Identification Card issued by the OSCA in the city or municipality where the elderly resides, or a valid government-issued ID.</li>
+                    <li className='ml-2'>3. Present the Senior Citizens&apos; Identification Card issued by the OSCA in the city or municipality where the elderly resides, or a valid government-issued ID.</li>
                     <li className='ml-2'>4. Submit the duly accomplished PMRF.</li>
                     <li className='ml-2'>5. Await the issuance of the Member Data Record and the PhilHealth Identification Card.</li>
                 </ul>
