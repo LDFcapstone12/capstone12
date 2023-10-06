@@ -123,7 +123,7 @@ export default function National() {
                                 <li className='ml-5'>Simply present the senior citizen&apos;s ID during the ordering or payment process.</li>
                             <p>2. For online food deliveries:</p>    
                                 <li className='ml-5'>Mention the senior citizen&apos;s name and senior citizen number during the ordering process.</li>
-                                <li className='ml-5'>En</li>
+                                <li className='ml-5'>Ensure to present the ID when your food is delivered.</li>
                     </p>      
                     <button className='mt-3 py-1 p-3 border bg-blue-800 text-white font-semibold' onClick={() => setIsOpen(!isOpen)}>{isOpen ? 'READ LESS...' : 'READ MORE...'}
                     </button>  

@@ -127,7 +127,7 @@ export default function Pasig() {
                     />
                     <h2 className='text-blue-950 text-lg font-semibold mt-5 uppercase'>Take note of the following guidelines:</h2>   
                         <ul className='border bg-gray-100'>
-                            <li className='ml-2 text-lg'>1. Bring your senior citizen's ID.</li>
+                            <li className='ml-2 text-lg'>1. Bring your senior citizen&apos;s ID.</li>
                             <li className='ml-2 text-lg'>2. Have an updated prescription with you.</li>
                             <li className='ml-2 text-lg'>3. Bring any relevant medical records if available.</li>
                         </ul>
@@ -144,7 +144,7 @@ export default function Pasig() {
                     />
                     <h2 className='text-blue-950 text-lg font-semibold mt-5 uppercase'>Take note of the following guidelines:</h2>   
                         <ul className='border bg-gray-100'>
-                            <li className='ml-2 text-lg'>1. Bring your senior citizen's ID.</li>
+                            <li className='ml-2 text-lg'>1. Bring your senior citizen&apos;s ID.</li>
                             <li className='ml-2 text-lg'>2. Bring your vaccination record.</li>
                         </ul>
                 </div>
@@ -161,7 +161,7 @@ export default function Pasig() {
                     <h2 className='text-blue-950 text-lg font-semibold mt-5 uppercase'>Take note of the following requirements:</h2>   
                         <ul className='border bg-gray-100'>
                             <li className='ml-2 text-lg'>1. Photocopy of Birth Certificate(PSA/NSO) or Certified True Copy from the Local Civil Registry, or Baptismal Certificate.</li>
-                            <li className='ml-2 text-lg'>2. Photocopy of Senior Citizen's ID (front and back)</li>
+                            <li className='ml-2 text-lg'>2. Photocopy of Senior Citizen&apos;s ID (front and back)</li>
                             <li className='ml-2 text-lg'>3. Pasig City Cash Card</li>
                             <li className='ml-2 text-lg'>4. Original of Barangay Clearance</li>
                             <li className='ml-2 text-lg'>5. Original of Certificate of Membership from Senior Citizens Association in your Barangay.</li>
