@@ -35,7 +35,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="w-full max-w-[1240px] h-screen mx-auto py-5 md:py-16">
+    <div className="w-full max-w-[1240px] max-h-screen mx-auto mt-5 md:py-16">
       <h1 className="text-xl lg:text-2xl tracking-wider font-bold uppercase text-blue-900 text-center">How can we help you?</h1>
       <div className="w-full max-w-[700px] mx-auto items-center justify-center px-2 py-8">
         <p className="text-center italic text-gray-600">
