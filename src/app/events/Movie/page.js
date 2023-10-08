@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 export const metadata = {
   title: 'Libreng Sine : BSA Senior Citizens Association',
@@ -50,11 +51,19 @@ export default function Movie() {
           and fellow residents.
         </p>
 
-        <p className="text-justify mt-3 mb-10">
+        <p className="text-justify mt-3">
           Let us unite in celebrating the return of free movies for our senior citizens. Your happiness and well-being remain our utmost priority,
           and we eagerly anticipate your presence at the cinema.
         </p>
       </div>  
+      <div className="flex justify-center gap-10 px-3 py-5">
+        <Link href='/events'>
+          <p className="underline tracking-widest rounded-full bg-[#affd2d] px-7 py-2 hover:scale-110 ease-in duration-300 cursor-pointer uppercase text-lg font-semibold">Back</p>
+          </Link> 
+          <Link href='/events/Urban'>
+          <p className="underline tracking-widest rounded-full bg-[#affd2d] px-7 py-2 hover:scale-110 ease-in duration-300 cursor-pointer uppercase text-lg font-semibold">Next</p>
+          </Link> 
+        </div>
       </div>     
     </div> 
   );

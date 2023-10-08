@@ -74,7 +74,6 @@ export default function Benefits() {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

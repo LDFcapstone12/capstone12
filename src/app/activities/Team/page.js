@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 
 export default function Team() {
@@ -34,7 +35,7 @@ export default function Team() {
             <p className="text-justify mb-8 text-lg">The Senior Citizens Board of Trustees had a special event on July 5, 2023, at Siena&apos;s
             Events Place in Antipolo. The main goal of this gathering was to help senior citizens understand the role of civil society
             organizations in local government and how they can be a part of it. It was like a learning day for the senior members to
-            get ready for active involveent in city governance. This event showd how important they are in CSOs and how much they can do to 
+            get ready for active involvement in city governance. This event showed how important they are in CSOs and how much they can do to 
             improve their community. It was a day of learning, inspiration, and building connections among senior citizens for the greater good. </p>
             <div
                 style={backgroundImageStyle}
@@ -54,6 +55,14 @@ export default function Team() {
                         <BsChevronCompactRight size={30} />
                     </div>
                 </div>
+            </div>
+            <div className="flex justify-center items-center gap-10 py-5">
+                <Link href='/projects'>
+                    <p className="underline cursor-pointer tracking-widest rounded-full bg-[#affd2d] px-7 py-2 hover:scale-110 ease-in duration-300 uppercase text-lg font-semibold">Back</p>
+                </Link> 
+                <Link href='/activities/Oath'>
+                    <p className="underline cursor-pointer tracking-widest rounded-full bg-[#affd2d] px-7 py-2 hover:scale-110 ease-in duration-300 uppercase text-lg font-semibold">Next</p>
+                </Link> 
             </div>
         </div>
     );

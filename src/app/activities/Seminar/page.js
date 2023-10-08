@@ -1,18 +1,18 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 
-export default function Oath() {
+export default function Seminar() {
     const slides = [
-        { src: "/assets/projects/oath/1.jpg", alt: "Slide 1" },
-        { src: "/assets/projects/oath/2.jpg", alt: "Slide 2" },
-        { src: "/assets/projects/oath/3.jpg", alt: "Slide 3" },
-        { src: "/assets/projects/oath/4.jpg", alt: "Slide 4" },
-        { src: "/assets/projects/oath/5.jpg", alt: "Slide 5" },
-        { src: "/assets/projects/oath/6.jpg", alt: "Slide 6" },
-        { src: "/assets/projects/oath/7.jpg", alt: "Slide 7" },
-        { src: "/assets/projects/oath/8.jpg", alt: "Slide 8" },
-        { src: "/assets/projects/oath/9.jpg", alt: "Slide 9" },
+        { src: "/assets/projects/seminar/1.jpg", alt: "Slide 1" },
+        { src: "/assets/projects/seminar/2.jpg", alt: "Slide 2" },
+        { src: "/assets/projects/seminar/3.jpg", alt: "Slide 3" },
+        { src: "/assets/projects/seminar/4.jpg", alt: "Slide 4" },
+        { src: "/assets/projects/seminar/6.jpg", alt: "Slide 6" },
+        { src: "/assets/projects/seminar/7.jpg", alt: "Slide 7" },
+        { src: "/assets/projects/seminar/8.jpg", alt: "Slide 8" },
+        { src: "/assets/projects/seminar/9.jpg", alt: "Slide 9" },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -33,18 +33,17 @@ export default function Oath() {
     
     return (
         <div className="max-w-[1400px] mt-10 w-full items-center justify-center m-auto py-15 px-4 relative group">
-            <h1 className="text-center text-3xl font-bold mb-4">Board of Trustees Oath Taking</h1>
-            <p className="text-justify mb-8 text-lg">The visit was a respectful and formal gesture as the senior citizen officers
-            paid a courtesy call to Barangay Captain Thomas Raymond Lising. The occasion also marked an important milestone
-            when the newly elected senior citizen officers took their oaths on February 24, 2023, at the third-floor office of
-            Barangay Captain Lising. During the meeting, Captain Raymond expressed his strong desire to maintain and further develop
-            collaborative projects with the senior citizens&apos; association, underscoring the community&apos;s commitment to supporting 
-            its elderly members. He also emphasized the significance of nurturing a robust and cooperative partnership between the Barangay
-            council and the senior citizens&apos; association, recognizing that such a collaborative would be instrumental in enhancing the 
-            overall well-being of the community and addressing the unique needs and concerns of its senior population.</p>
+            <h1 className="text-center text-3xl font-bold mb-4">Container Gardening Seminar</h1>
+            <p className="text-justify mb-8 text-lg">The Urban Gardneing Seminar on September 16, 2023, in Pasig City&apos;s
+            Barangay San Antonio was a special event. It was organized by the senior citizen&apos;s association to teach people
+            about gardening in the city, especially when living in tall buildings. The seminar started at 8:30 am and ended at 1:00 pm,
+            giving everyone enough time to learn from gardening experts. The choice of Jollibee Shaw Blvd. as the location made it easy 
+            for people to attend. The experts at the seminar knew a lot about urban gardening, especially using containers for plants. This
+            is important in a place like Barangay San Antonio where many people live in high-rise buildings. They shared tips on choosing
+            the right containers, plants, and how to take care of your garden in small spaces. </p>
             <div
                 style={backgroundImageStyle}
-                className="w-full h-[60vh] md:h-[780px] rounded-2xl bg-center bg-cover duration-500 relative mb-10"
+                className="w-full h-[60vh] md:h-[780px] rounded-2xl bg-center bg-cover duration-500 relative"
             >
                 <div className="absolute inset-0 flex items-center">
                     <div
@@ -59,7 +58,15 @@ export default function Oath() {
                     >
                         <BsChevronCompactRight size={30} />
                     </div>
-                </div>
+                </div>      
+            </div>
+            <div className="flex justify-center items-center gap-10 py-5">
+                <Link href='/projects'>
+                    <p className="underline cursor-pointer tracking-widest rounded-full bg-[#affd2d] px-7 py-2 hover:scale-110 ease-in duration-300 uppercase text-lg font-semibold">Back</p>
+                </Link> 
+                <Link href='/activities/Flu'>
+                    <p className="underline cursor-pointer tracking-widest rounded-full bg-[#affd2d] px-7 py-2 hover:scale-110 ease-in duration-300 uppercase text-lg font-semibold">Next</p>
+                </Link> 
             </div>
         </div>
     );

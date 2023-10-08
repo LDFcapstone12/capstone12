@@ -9,6 +9,7 @@ const Seminaritem = () => {
     src="/assets/projects/Seminar.png" 
     width={600}
     height={250}
+    priority={true}
     alt="" />
     <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
       <h3 className="text-2xl text-gray-700 tracking-wider font-bold text-center">Container Gardening Seminar</h3>

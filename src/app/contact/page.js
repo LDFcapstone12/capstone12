@@ -35,8 +35,8 @@ export default function Contact() {
   };
 
   return (
-    <div className="w-full max-w-[1240px] h-screen mx-auto py-8 md:py-16">
-      <h1 className="text-xl lg:text-2xl tracking-wider font-bold uppercase text-blue-900 text-center">Contact Us</h1>
+    <div className="w-full max-w-[1240px] h-screen mx-auto py-5 md:py-16">
+      <h1 className="text-xl lg:text-2xl tracking-wider font-bold uppercase text-blue-900 text-center">How can we help you?</h1>
       <div className="w-full max-w-[700px] mx-auto items-center justify-center px-2 py-8">
         <p className="text-center italic text-gray-600">
           Please don&apos;t hesitate to reach out with your questions, suggestions, or if you need assistance.

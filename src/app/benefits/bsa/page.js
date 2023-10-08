@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const paragraphStyles = {
   WebkitLineClamp: 2,
@@ -65,10 +66,10 @@ export default function Bsa() {
         </div>
         
         <h2 className='uppercase text-blue-950 text-lg ml-5 font-semibold mt-5'>To qualify for the benefits from Barangay San Antonio, you need to:</h2>   
-          <ul>
-            <li className='ml-2 text-lg'>1. Must be a resident of Barangay San Antonio.</li>
-            <li className='ml-2 text-lg'>2. Must need to have a senior citizen ID.</li>
-            <li className='ml-2 text-lg'>3. Must also be a registered voter of Barangay San Antonio, Pasig City.</li>
+          <ul className='text-justify justify-center'>
+            <li className='px-10 text-lg'>1. Must be a resident of Barangay San Antonio.</li>
+            <li className='px-10 text-lg'>2. Must need to have a senior citizen ID.</li>
+            <li className='px-10 text-lg'>3. Must also be a registered voter of Barangay San Antonio, Pasig City.</li>
           </ul>
 
           <div className="w-full lg:w-10/12 p-5 mt-5">
@@ -110,7 +111,10 @@ export default function Bsa() {
               isExpanded={section4Expanded}
               toggleExpand={() => setSection4Expanded(!section4Expanded)}
             />
-          </div>       
+          </div> 
+          <Link href='/benefits'>
+            <p className="underline tracking-widest rounded-full bg-[#affd2d] px-7 py-2 hover:scale-110 ease-in duration-300 cursor-pointer uppercase text-lg font-semibold">Back</p>
+          </Link>       
       </div>
     </div>
   );

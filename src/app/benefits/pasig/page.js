@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const paragraphStyles = {
   WebkitLineClamp: 2,
@@ -227,6 +228,9 @@ export default function Pasig() {
                             <li className='ml-2 text-lg'>3. The city hall will schedule interviews or assessments for those who have applied for the Local Senior Pension.</li>
                         </ul>
                 </div>
+                <Link href='/benefits'>
+                  <p className="underline tracking-widest rounded-full bg-[#affd2d] px-7 py-2 hover:scale-110 ease-in duration-300 cursor-pointer uppercase text-lg font-semibold">Back</p>
+                </Link> 
             </div>
         </div>
         

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 export const metadata = {
   title: 'Container Gardening : BSA Senior Citizens Association',
@@ -42,9 +43,15 @@ export default function Urban() {
       <p className="w-10/12 text-lg text-justify mt-5 mx-auto">To facilitate this endeavor, Kagawad Justin Galang of Barangay San Antonio has generously
       offered to provide all the necessary tools and resources for the contest.</p>
       
-      <p className="w-10/12 text-lg text-justify mt-5 mx-auto mb-10">If your are a senior citizen interested in joining the contest, kindly get in touch with 
+      <p className="w-10/12 text-lg text-justify mt-5 mx-auto mb-5">If your are a senior citizen interested in joining the contest, kindly get in touch with 
       <span className="font-semibold"> Leah Florencio at 0967-2773468.</span> </p>
-      </div>     
+      <div className="flex justify-center px-3 py-5"> 
+      <Link href='/events'>
+          <p className="underline tracking-widest rounded-full bg-[#affd2d] px-7 py-2 hover:scale-110 ease-in duration-300 cursor-pointer uppercase text-lg font-semibold">Back</p>
+      </Link> 
+      </div>
+      </div>  
+      
     </div> 
   );
 }

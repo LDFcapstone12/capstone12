@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav className='navbar'>
-      <div className='navbar-logo'>
+      <div className='navbar-logo w-auto'>
         <Image src='/assets/logo/SCA.png' 
         width={100}
         height={50}
@@ -31,7 +31,7 @@ const Navbar = () => {
           <Link href='/events'>News and Events</Link>
         </li>
         <li>
-          <Link href='/benefits'>Senior Discounts and Benefits</Link>
+          <Link href='/benefits'>Discounts and Benefits</Link>
         </li>
         <li>
           <Link href='/projects'>Gallery</Link>
@@ -44,34 +44,33 @@ const Navbar = () => {
       <div onClick={handleNav} className='md:hidden'>
           <AiOutlineMenu color='black' fontSize={27}/>
       </div>
-      <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
-        <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' 
+      <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/80' : ''}>
+        <div className={nav ? 'fixed left-0 top-0 w-[85%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-5 ease-in duration-500' 
         : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
         <div>
-          <div className='flex w-full items-center justify-between'>
+          <div className='flex w-auto items-center justify-between'>
             <Image src="/assets/logo/SCA.png" 
             width={87}
             height={35}
             alt=""/>
-            <div onClick={handleNav} className='rounded-full font-bold shadow-lg shadow-[#affd2d] p-3 cursor-pointer'>
+            <div onClick={handleNav} className='rounded-full font-black shadow-lg shadow-[#affd2d] p-3 cursor-pointer'>
               <AiOutlineClose size="20"/>
             </div>
           </div>
-          <div className='border-b border-[#affd2d] my-4 '>
-          <p className='w-[85%] md:w-[90%] py-1'>Brgy. San Antonio Senior Citizens Association</p>
-          
+          <div className='border-b border-[#affd2d] my-4'>
+            <p className='w-[90%] md:w-[100%] py-2 font-semibold text-gray-600'>Feel free to browse the website.</p>
           </div>
         </div>
         <div className='py-4 flex flex-col'>
-          <ul className='uppercase'>
-            <li className='py-4 text-m'><Link href='/about'>About Us</Link></li>
-            <li className='py-4 text-m'><Link href='/events'>News and Events</Link></li>
-            <li className='py-4 text-m'><Link href='/benefits'>Senior Discounts and Benefits</Link></li>
-            <li className='py-4 text-m'><Link href='/projects'>Gallery</Link></li>
-            <li className='py-4 text-m'><Link href='/contact'>Contact Us</Link></li>
+          <ul className='uppercase font-bold'>
+            <li onClick={()=> setNav(false)} className='py-4 text-m'><Link href='/about'>About Us</Link></li>
+            <li onClick={()=> setNav(false)}  className='py-4 text-m'><Link href='/events'>News and Events</Link></li>
+            <li onClick={()=> setNav(false)} className='py-4 text-m'><Link href='/benefits'>Discounts and Benefits</Link></li>
+            <li onClick={()=> setNav(false)} className='py-4 text-m'><Link href='/projects'>Gallery</Link></li>
+            <li onClick={()=> setNav(false)} className='py-4 text-m'><Link href='/contact'>Contact Us</Link></li>
           </ul>
           <Link href='/signup'>
-              <button type='submit' className="bg-white text-blue-900 text-m lg:text-lg font-semibold px-6 py-2 shadow-md shadow-[#affd2d] rounded-full">
+              <button onClick={()=> setNav(false)} type='submit' className="bg-white text-blue-900 text-m lg:text-lg font-semibold mt-5 px-9 py-2 shadow-md shadow-[#affd2d] rounded-full">
                 Join Us
               </button>
             </Link>

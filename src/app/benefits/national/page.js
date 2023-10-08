@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const paragraphStyles = {
   WebkitLineClamp: 2,
@@ -199,6 +200,9 @@ PhilHealth plays a significant role in facilitating hospitalization benefits for
                     <li className='ml-2'>5. Await the issuance of the Member Data Record and the PhilHealth Identification Card.</li>
                 </ul>
         </div>
+        <Link href='/benefits'>
+          <p className="underline tracking-widest rounded-full bg-[#affd2d] px-7 py-2 hover:scale-110 ease-in duration-300 cursor-pointer uppercase text-lg font-semibold">Back</p>
+        </Link> 
       </div>
     </div>
   );

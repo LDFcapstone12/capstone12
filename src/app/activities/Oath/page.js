@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 
 export default function Oath() {
@@ -60,6 +61,11 @@ export default function Oath() {
                         <BsChevronCompactRight size={30} />
                     </div>
                 </div>
+            </div>
+            <div className="flex justify-center items-center py-5">
+                <Link href='/projects'>
+                    <p className="underline cursor-pointer tracking-widest rounded-full bg-[#affd2d] px-7 py-2 hover:scale-110 ease-in duration-300 uppercase text-lg font-semibold">Back</p>
+                </Link> 
             </div>
         </div>
     );

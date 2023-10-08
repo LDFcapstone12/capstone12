@@ -30,8 +30,8 @@ export default function Home() {
                 {HomeContent.text.subheading}
               </span>)}
 
-            {HomeContent.text.heading && (<h1 className="text-xl lg:text-2xl font-semibold text-heading mb-7">
-              {HomeContent.text.heading}</h1>)}
+            {HomeContent.text.heading && <h1 className="text-xl lg:text-2xl font-semibold text-heading mb-7">
+              {HomeContent.text.heading}</h1>}
 
             {HomeContent.text.description && <p className="leading-relaxed text-justify text-xl lg:text-xl mb-8">
               {HomeContent.text.description}</p>}
@@ -51,7 +51,7 @@ export default function Home() {
           <div className="lg:w-6/12 space-y-2 gap-2">
             <div className="flex space-x-2 items-stretch">
               <div className="w-8/12">
-                {HomeContent.images.image1 && (<Image src={HomeContent.images.image1} alt="/" width={397} height={406} className="object-cover h-full w-full rounded-2xl" />)}
+                {HomeContent.images.image1 && (<Image src={HomeContent.images.image1} alt="/" width={397} height={406} priority={true} className="object-cover h-full w-full rounded-2xl" />)}
               </div>
 
               <div className="w-4/12 self-end space-y-2">
