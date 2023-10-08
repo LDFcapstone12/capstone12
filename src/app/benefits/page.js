@@ -11,7 +11,7 @@ export default function Benefits() {
             <h1 className="text-xl lg:text-2xl tracking-wider font-bold uppercase text-blue-900 text-center">
                 discounts and benefits
             </h1>
-            <div className="max-w-[1240px] mx-auto md:py-16">
+            <div className="max-w-[1240px] mx-auto md:py-3">
                 <p className="py-4 font-serif lg:text-xl text-lg tracking-wide text-justify">This section is a valuable resource where you can explore various discounts and benefits 
                 specifically designed for senior citizens. These benefits encompass a range of offerings, including national government benefits, 
                 benefits tailored for residents of Pasig City, and those available within the local Barangay San Antonio. It serves as an informative
