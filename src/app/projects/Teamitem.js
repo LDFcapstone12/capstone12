@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Teamitem = () => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#affd2d] to-[#cbf090]">
+    <div className="relative -order-1 flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#affd2d] to-[#cbf090]">
     <Image className="rounded-xl group-hover:opacity-10" 
     src="/assets/projects/Team.png" 
     width={600}

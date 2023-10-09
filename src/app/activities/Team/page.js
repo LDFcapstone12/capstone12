@@ -30,7 +30,7 @@ export default function Team() {
     };
     
     return (
-        <div className="max-w-[1400px] mt-10 w-full items-center justify-center m-auto py-15 px-4 relative group">
+        <div className="w-full max-w-[1200px] md:w-[992px] mt-10 items-center justify-center m-auto px-3">
             <h1 className="text-center text-3xl font-bold mb-4">Senior Citizens&apos; Team Building</h1>
             <p className="text-justify mb-8 text-lg">The Senior Citizens Board of Trustees had a special event on July 5, 2023, at Siena&apos;s
             Events Place in Antipolo. The main goal of this gathering was to help senior citizens understand the role of civil society
@@ -39,18 +39,18 @@ export default function Team() {
             improve their community. It was a day of learning, inspiration, and building connections among senior citizens for the greater good. </p>
             <div
                 style={backgroundImageStyle}
-                className="w-full h-[60vh] md:h-[780px] rounded-2xl bg-center bg-cover duration-500 relative mb-10"
+                className="w-full h-[60vh] md:h-[780px] rounded-2xl bg-center bg-cover duration-500"
             >
-                <div className="absolute inset-0 flex items-center">
+                <div className="flex justify-between items-center px-2 lg:py-96 py-52">
                     <div
                         onClick={goToPreviousSlide}
-                        className="absolute left-5 text-2xl rounded-full p-2 bg-[#affd2d] text-white cursor-pointer"
+                        className="text-2xl rounded-full p-2 bg-[#affd2d] text-white cursor-pointer"
                     >
                         <BsChevronCompactLeft size={30} />
                     </div>
                     <div
                         onClick={goToNextSlide}
-                        className="absolute right-5 text-2xl rounded-full p-2 bg-[#affd2d] text-white cursor-pointer"
+                        className="text-2xl rounded-full p-2 bg-[#affd2d] text-white cursor-pointer"
                     >
                         <BsChevronCompactRight size={30} />
                     </div>

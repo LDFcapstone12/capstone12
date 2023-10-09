@@ -32,7 +32,7 @@ export default function Seminar() {
     };
     
     return (
-        <div className="max-w-[1400px] mt-10 w-full items-center justify-center m-auto py-15 px-4 relative group">
+        <div className="w-full max-w-[1200px] md:w-[992px] mt-10 items-center justify-center m-auto px-3">
             <h1 className="text-center text-3xl font-bold mb-4">Container Gardening Seminar</h1>
             <p className="text-justify mb-8 text-lg">The Urban Gardneing Seminar on September 16, 2023, in Pasig City&apos;s
             Barangay San Antonio was a special event. It was organized by the senior citizen&apos;s association to teach people
@@ -43,18 +43,18 @@ export default function Seminar() {
             the right containers, plants, and how to take care of your garden in small spaces. </p>
             <div
                 style={backgroundImageStyle}
-                className="w-full h-[60vh] md:h-[780px] rounded-2xl bg-center bg-cover duration-500 relative"
+                className="w-full h-[60vh] md:h-[780px] rounded-2xl bg-center bg-cover duration-500"
             >
-                <div className="absolute inset-0 flex items-center">
+                <div className="flex justify-between items-center px-2 lg:py-96 py-52">
                     <div
                         onClick={goToPreviousSlide}
-                        className="absolute left-5 text-2xl rounded-full p-2 bg-[#affd2d] text-white cursor-pointer"
+                        className="text-2xl rounded-full p-2 bg-[#affd2d] text-white cursor-pointer"
                     >
                         <BsChevronCompactLeft size={30} />
                     </div>
                     <div
                         onClick={goToNextSlide}
-                        className="absolute right-5 text-2xl rounded-full p-2 bg-[#affd2d] text-white cursor-pointer"
+                        className="text-2xl rounded-full p-2 bg-[#affd2d] text-white cursor-pointer"
                     >
                         <BsChevronCompactRight size={30} />
                     </div>
