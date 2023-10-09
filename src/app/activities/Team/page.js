@@ -41,7 +41,7 @@ export default function Team() {
                 style={backgroundImageStyle}
                 className="w-full h-[60vh] md:h-[780px] rounded-2xl bg-center bg-cover duration-500"
             >
-                <div className="flex justify-between items-center px-2 lg:py-96 py-52">
+                <div className="flex justify-between items-center px-2 lg:py-96 py-60">
                     <div
                         onClick={goToPreviousSlide}
                         className="text-2xl rounded-full p-2 bg-[#affd2d] text-white cursor-pointer"
